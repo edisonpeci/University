@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p></p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Online</h3>
+                <p></p>
+            </div>
+            <div class="course-col">
+                <h3>Present</h3>
+                <p></p>
+            </div>
+            <div class="course-col">
+                <h3>Mix</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p></p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p></p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p></p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p></p>
+                </div>
+            </div>
+    </section>
+    
+
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Thank you for visiting our page<br>You are welcomed.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/FEUIMB/"><i class="fa fa-facebook"></i></a>
+            <i class="fa fa-twitter"></i>
+            <a href="https://www.instagram.com/uibm_net?igsh=MW92b3R4OTE5eDV0bA=="><i class="fa fa-instagram"></i></a>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Edison Peci</p>
+</section>    
+  
+  
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
